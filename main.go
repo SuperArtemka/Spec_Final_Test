@@ -31,7 +31,7 @@ func main() {
 		"4. Сортировка животных по возрасту\n", "5. Выход")
 
 	var numMenu uint8
-	//Меню завернуть в функцию
+
 	fmt.Scan(&numMenu)
 	if numMenu == 1 {
 		var newName, addType, addcomands, addBirthDate string
