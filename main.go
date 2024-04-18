@@ -10,7 +10,7 @@ func main() {
 	type Animal struct {
 		name, typeAnimal, commands, birthDate string
 
-		// Не понимаю, как вводить с консоли дату
+		// Не понимаю, как вводить с консоли дату и как пользовать t.Time()
 	}
 	var allAnimals = map[string]Animal{
 		"Whiskars": {name: "Whiskars", typeAnimal: "Cat", commands: "Sit, Pounce", birthDate: "2019.05.15"},
