@@ -1,0 +1,24 @@
+   82  mkdir Final_Spec_Test
+   83  cd Final_Spec_Test/
+   84  git init
+   85  git remote add origin https://github.com/SuperArtemka/Spec_Final_Test.git
+   86  git branch -M main
+   87  git push -u origin main
+   88  git remote -v
+   89  nano Pets
+   90  nano Pack_animals
+   91  ls -a
+   92  cat Pets Pack_animals > some_animals
+   93  ls -a
+   94  cat some_animals 
+   95  mv some_animals HumanFriends
+   96  ls -a
+   97  mkdir Animals
+   98  mv HumanFriends Pack_animals Pets Animals/
+   99  ls -a
+  100  sudo apt update 
+  101  sudo apt install mysql-server
+  102  wget -c https://dev.mysql.com/get/mysql-apt-config_0.8.10-1_all.deb
+  103  sudo dpkg -i mysql-apt-config_0.8.10-1_all.deb
+  104  sudo dpkg -r mysql-apt-config 
+  105  cd
